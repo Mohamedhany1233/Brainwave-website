@@ -3,6 +3,7 @@ import Section from "../../components/ui/section";
 import { collabApps, collabContent, collabText } from "../../constants";
 import Button from "../../components/ui/Button";
 import { LeftCurve, RightCurve } from "../collaboration/visuals/Collaboration";
+import Heading from "../../components/ui/Heading";
 
 const CollaborationSection = () => {
   return (
@@ -10,9 +11,10 @@ const CollaborationSection = () => {
       <div className="container lg:flex">
         {/* Collaboration Content on the left */}
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
-          </h2>
+          <Heading
+            className="h2"
+            title="AI Chat App for seamless collaboration"
+          />
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((c) => (

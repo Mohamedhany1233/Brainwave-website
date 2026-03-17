@@ -4,7 +4,7 @@ import { BackgroundCircles, BottomLine, Gradient } from "./visuals/Hero";
 import { heroIcons } from "../../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Generating from "./visuals/Generating";
+import Generating from "../../components/ui/Generating";
 import Notification from "./visuals/Notification";
 import Section from "../../components/ui/section";
 import CompanyLogos from "./companyLogos";
