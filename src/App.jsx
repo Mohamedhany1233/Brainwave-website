@@ -8,6 +8,7 @@ import CollaborationSection from "./sections/collaboration/collaborationSection"
 import ServicesSection from "./sections/services/servicesSection";
 import PricingSection from "./sections/pricing/pricingSection";
 import RoadmapSection from "./sections/roadmap/roadmapSection";
+import FooterSection from "./sections/footer/footerSection";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <ServicesSection />
         <PricingSection />
         <RoadmapSection />
+        <FooterSection />
       </div>
       <ButtonGradient />
     </>
